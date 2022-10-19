@@ -8,7 +8,7 @@
 def main():
     # Finds if the user's integer is positive, negative, or zero
 
-    integer = int(input("Enter a number from 0-9: "))
+    integer = int(input("Enter an integer: "))
     if integer > 0:
         print("\n{} is a positive integer.".format(integer))
     elif integer < 0:
